@@ -1,0 +1,116 @@
+{
+    "type": "SCREEN",
+    "najamainid": "controller218910407",
+    "underNoErasePanel": {
+        "type": "PANEL",
+        "id": "underNoErasePanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": []
+    },
+    "mainPanel": {
+        "type": "PANEL",
+        "id": "mainPanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": [
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "NSI",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": "controller218910407"
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "inputLineHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "inputHelpRoutineField",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "pfHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "pfGridLineHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "eventHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            }
+        ]
+    },
+    "controlsPanel": {
+        "type": "PANEL",
+        "id": "controlsPanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": []
+    },
+    "focusInputHidden": null,
+    "endProgram": false,
+    "pfKeyActivated": true,
+    "currentLine": 1,
+    "currentIDSufix": null,
+    "currentGridID": null,
+    "currentGridLine": null,
+    "isNoErase": false,
+    "navAction": "runProgram",
+    "actionPressed": null,
+    "errorPopUp": true,
+    "errorMessage": "JECS-00123:RUNTIME - Division by zero not permitted, at Divide Arithmetic Expression statement. At OBJECT: ZTERRO1.\n"
+}

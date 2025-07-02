@@ -1,0 +1,19 @@
+<app-home-screen *ngIf="isHomeScreenVisible" (startApp)="onStartApp($event)"></app-home-screen>
+<app-error-screen *ngIf="isErrorScreenVisible" [message]="errorMessage"
+    (closeEvent)="handleErrorClose()"></app-error-screen>
+
+<ng-container *ngIf=" !isHomeScreenVisible && !isErrorScreenVisible">
+    <div style="position: absolute; top: 0px; left: 0px;">
+        <ng-container #underNoErasePanelContainer></ng-container>
+        <!-- Under No Erase Panel Container -->
+    </div>
+    <div style="position: absolute; top: 0px; left: 0px;">
+        <ng-container #mainPanelContainer></ng-container>
+        <!-- Main Panel Container -->
+    </div>
+    <div style="position: absolute; top: 90vh; left: 0px;">
+        <ng-container #controlsPanelContainer></ng-container>
+        <!-- Controls Panel Container -->
+    </div>
+</ng-container>
+<button id="continueDefaultButton" style="display: none;" (click)="defaultContinue()"></button>

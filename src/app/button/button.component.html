@@ -1,0 +1,4 @@
+<button [id]="data.id ? data.id : {}" [ngStyle]="parsedStyles"
+    [ngClass]="data.styleClass ? data.styleClass : ''" (click)="handleClick()">
+    {{ data.value }}
+</button>

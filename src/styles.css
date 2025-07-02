@@ -1,0 +1,1218 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+	padding: 0px;
+	margin: 0px;
+	height: 0px;
+}
+
+body {
+	font-family: monospace;
+	font-size: 13px;
+	font-weight: normal;
+	background-color: #CCC;
+	padding: 0px;
+	width: 99.9%;
+	/* position: relative; */
+}
+
+/* .test_class2 {
+	transform: translateY(125%);
+} */
+
+/* .position_test {
+	position: absolute !important;
+} */
+
+.panelAllClass {
+	height: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	display: block;
+}
+
+.mainTableClass {
+	position: absolute;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+}
+
+.screenAllClass {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+
+.screenAllClassUnderNoErase {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*border: solid 3px red;*/
+	background-color: white;
+}
+
+input {
+	font-family: monospace;
+	height: 13px;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	min-width: 0.7rem;
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+	background: rgb(243, 133, 35);
+}
+
+fieldset {
+	background-color: white;
+	margin: 10px;
+	padding: 1px;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+select {
+	font-family: monospace;
+}
+
+
+/*HEADER WINDOW*/
+.headerClass {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 90px;
+	width: 100%;
+	border: solid 1px #AAA;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-bottom: solid 2px #333132;
+
+	background-color: #F37123;
+	background-image: linear-gradient(left, rgb(243, 133, 35) 12%, rgb(243, 113, 35) 56%);
+	background-image: -o-linear-gradient(left, rgb(243, 133, 35) 12%, rgb(243, 113, 35) 56%);
+	background-image: -moz-linear-gradient(left, rgb(243, 133, 35) 12%, rgb(243, 113, 35) 56%);
+	background-image: -webkit-linear-gradient(left, rgb(243, 133, 35) 12%, rgb(243, 113, 35) 56%);
+	background-image: -ms-linear-gradient(left, rgb(243, 133, 35) 12%, rgb(243, 113, 35) 56%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0.12, rgb(243, 133, 35)), color-stop(0.56, rgb(243, 113, 35)));
+
+	-moz-box-shadow: 1px 1px 8px #888;
+	-webkit-box-shadow: 1px 1px 8px #888;
+	box-shadow: 1px 1px 8px #888;
+
+}
+
+.logoHeaderClass {
+	position: absolute;
+	left: 12px;
+	top: 4px;
+	/*background-image: url("../images/logo_horiz_1.png");*/
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 80px;
+	width: 300px;
+}
+
+.logoJustHeaderClass {
+	position: absolute;
+	right: 15px;
+	top: 17px;
+	/*background-image:url("../images/logo_semi_horiz_f.png");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 45px;
+	width: 161px;
+}
+
+/*END HEADER WINDOW*/
+
+/*EXECUTION WINDOW*/
+.bodyClass {
+	display: block;
+	padding: 1%;
+}
+
+.trContentClass {}
+
+.trControlClass {}
+
+.trFooterClass {}
+
+.windowClass {
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background-color: white;*/
+	/*
+	border: solid 1px #AAA;
+	margin: 1%;
+	-moz-box-shadow: 1px 1px 8px #888;
+	-webkit-box-shadow: 1px 1px 8px #888;
+	box-shadow: 1px 1px 8px #888;
+	*/
+}
+
+.contentDivClass {
+	padding: 1%;
+	width: 98%;
+	height: 100%;
+}
+
+.contentTableClass {
+	border: 1px solid gray;
+	-moz-box-shadow: 1px 1px 8px #888;
+	-webkit-box-shadow: 1px 1px 8px #888;
+	box-shadow: 1px 1px 8px #888;
+}
+
+
+/*Richfaces DropMenu css*/
+.rf-ddm-lbl {
+	z-index: 9999;
+}
+
+.rf-ddm-sel {}
+
+.rf-ddm-unsel {}
+
+.rf-ddm-lst {}
+
+.rf-ddm-lst-bg {}
+
+.rf-ddm-itm {}
+
+.rf-ddm-itm-sel {}
+
+/*Richfaces DropMenu css*/
+
+.topMenuPanelClass {}
+
+.leftMenuPanelClass {
+	position: absolute;
+	width: 160px;
+	height: 100%;
+	background-color: #D4CFC7;
+}
+
+.leftMenuPanelClass .rf-pm-itm-lbl {
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	white-space: nowrap !important;
+	overflow: hidden;
+}
+
+.leftMenuPanelClass .leftMenuGroupClass {
+	padding-left: 20px;
+}
+
+.leftMenuPanelClass .leftMenuItemClass {}
+
+.leftMenuPanelClass .leftMenuItemClass img {
+	width: 16px;
+	height: 16px;
+}
+
+.leftMenuPanelClass .rf-pm-top-gr-ico {
+	width: 0px;
+	height: 0px;
+	margin: 0px 0px;
+	display: none;
+}
+
+.leftMenuPanelClass .rf-pm-gr-ico {
+	width: 0px;
+	height: 0px;
+	margin: 0px 0px;
+	display: none;
+}
+
+.leftMenuPanelClass .rf-pm-top-gr {
+	margin-bottom: 0px;
+}
+
+.rf-pm-top-gr-lbl {
+	font-weight: bold;
+}
+
+.rf-pm-itm-lbl {
+	font-weight: normal;
+}
+
+.leftMenuItemDefault {
+	white-space: nowrap;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	z-index: 2;
+}
+
+.rightMenuPanelClass {}
+
+.bottomMenuPanelClass {}
+
+.leftMenuContentClass {
+	left: 160px;
+	position: relative;
+}
+
+.topMenuContentClass {}
+
+.rightMenuContentClass {}
+
+.bottomMenuContentClass {}
+
+.contentPanelClass {}
+
+.controlClass {
+	display: block;
+	width: 98%;
+	margin: 1%;
+}
+
+/*END EXECUTION WINDOW*/
+
+/*FOOTER WINDOW*/
+.footerClass {
+	position: relative;
+	left: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #333132;
+	/*background-image:url("../images/footer_copyright.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	/* border: solid 1px #AAA; */
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	z-index: 1100;
+	vertical-align: middle;
+}
+
+.footerLeftClass {
+	position: absolute;
+	left: 10px;
+	/*background-image: url("../images/footer_java.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 1101;
+	width: 150px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.footerRightClass {
+	position: absolute;
+	right: 10px;
+	/*background-image: url("../images/logo_footer.jpg");*/
+	background-repeat: no-repeat;
+	background-position: right;
+	z-index: 1101;
+	width: 300px;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/*END FOOTER WINDOW*/
+
+/*OUTPUT TEXT*/
+.outputTextBaseClass {
+	vertical-align: top;
+	font-size: 12px;
+}
+
+@-webkit-keyframes blinker {
+	from {
+		opacity: 1.0;
+	}
+
+	to {
+		opacity: 0.0;
+	}
+}
+
+.blinkClass {
+	-webkit-animation-name: blinker;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+	-webkit-animation-duration: 1s;
+}
+
+.italicClass {
+	font-style: italic;
+}
+
+.boldClass {
+	font-weight: bold;
+}
+
+.hiddenClass {
+	display: none;
+}
+
+.underlinedClass {
+	text-decoration: underline;
+}
+
+.reverseVideoClass {
+	background-color: black;
+	color: white;
+	background-image: none;
+}
+
+/*Field Colors*/
+.defaultColor {
+	color: #000;
+}
+
+.blueColor {
+	color: blue;
+}
+
+.greenColor {
+	color: green;
+}
+
+.pinkColor {
+	color: #800080;
+}
+
+.redColor {
+	color: red;
+}
+
+.turquiseColor {
+	color: #0094ba;
+}
+
+.yellowColor {
+	color: yellow;
+}
+
+.intensifiedColor {
+	color: #A0A0A0;
+}
+
+/*END OUTPUT TEXT*/
+
+/*CONTROLS*/
+.controlsClass {
+	position: relative;
+	/* left: 2px; */
+	/* height: 28px; */
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	background-color: #9a9a9a;
+	border-top: 1px solid gray;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	/*
+	-moz-box-shadow: 1px 1px 8px #888;
+	-webkit-box-shadow: 1px 1px 8px #888;
+	box-shadow: 1px 1px 8px #888;
+	*/
+}
+
+/*END CONTROLS*/
+
+
+.spacerClass {
+	position: relative;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ccc;
+	z-index: 1200;
+	margin: 0px;
+	padding: 0px;
+}
+
+.popupClass {
+	font-family: monospace;
+}
+
+/*ERROR POPUP Screen Shade*/
+.rf-pp-shade {
+	z-index: 9994 !important;
+}
+
+/*ERROR POPUP Container*/
+.rf-pp-cntr {
+	font-family: monospace !important;
+	z-index: 9993 !important;
+}
+
+.rf-pp-cnt {
+	font-family: monospace !important;
+	font-size: medium !important;
+	z-index: 9993 !important;
+	padding: 0px !important;
+}
+
+.rf-pp-shdw {}
+
+/*ERROR POPUP Container Shadow*/
+.rf-pp-hdr {
+	/*ERROR POPUP Header*/
+	width: 99%;
+}
+
+.rf-pp-hdr-cnt {}
+
+/*ERROR POPUP Header Content*/
+
+
+.defaultLabelStyle {
+	font-family: monospace;
+	font-size: 11px;
+	text-decoration: none;
+	color: black;
+}
+
+.pfKeyClass {
+	font-weight: bold;
+	margin-right: 3px;
+	margin-bottom: 1px;
+	border-radius: 4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transform: translateY(0%);
+}
+
+
+.pfKeyFixedPositionClass {
+	position: absolute;
+	font-weight: bold;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px
+}
+
+spam.prgRun:screenAll input {
+	height: 15px;
+}
+
+.inputTextBaseClass {
+	font-family: monospace;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-top: 0px !important;
+	padding: 0px !important;
+}
+
+.defaultInputClass {
+	height: 15px;
+}
+
+.defaultComboStyleClass {}
+
+/* No erase inputs class. */
+.inputTextBaseClass {
+	background-color: white;
+}
+
+.inputCalendarNoEraseClass {
+	background-color: white;
+}
+
+.outputTextNoEraseClass {
+	background-color: white;
+	font-size: 13px;
+}
+
+/* This class defines styles for the select control itself. */
+.rf-sel {}
+
+/* This class defines styles for the container of the select control. panelBorderColor	border-color */
+.rf-sel-cntr {}
+
+/* This class defines styles for the select control input field. controlBackgroundColor	background-color */
+.rf-sel-inp {}
+
+/* This class defines styles for the input field when an error occurs. */
+.rf-sel-fld-err {}
+
+/* This class defines styles for an option in the select control. generalTextColor	color  generalSizeFont	font-size  generalFamilyFont	font-family */
+.rf-sel-opt {}
+
+/* This class defines styles for the selected option of the select control. generalTextColor	border-color */
+.rf-sel-sel {}
+
+/* This class defines styles for the default label of the select control. */
+.rf-sel-dflt-lbl {}
+
+/* This class defines styles for the button of the select control. headerBackgroundColor	background-color  panelBorderColor	border-left-color */
+.rf-sel-btn {}
+
+/* This class defines styles for the arrow on the button. */
+.rf-sel-btn-arrow {}
+
+/* This class defines styles for the button of the select control when it is disabled. */
+.rf-sel-btn-dis {}
+
+/* This class defines styles for the position of list. */
+.rf-sel-lst-cord {}
+
+/* This class defines styles for the list over rf-sel-lst-scrl. */
+.rf-sel-lst-dcrtn {}
+
+/* This class defines styles for the list scrollbar. */
+.rf-sel-lst-scrl {}
+
+/* This class defines styles for the select control shadow. */
+.rf-sel-shdw {}
+
+/* These classes define the top, bottom, left, and right edge of the select control shadows. */
+.rf-sel-shdw-t,
+.rf-sel-shdw-b,
+.rf-sel-shdw-l,
+.rf-sel-shdw-r {}
+
+.defaultInputAreaClass {
+	position: absolute;
+	resize: none;
+}
+
+
+/*COMBOBOX*/
+
+div.italicClass input.rf-sel-inp {
+	font-style: italic;
+}
+
+div.italicClass div.rf-sel-opt {
+	font-style: italic;
+}
+
+div.boldClass input.rf-sel-inp {
+	font-weight: bold;
+}
+
+div.boldClass div.rf-sel-opt {
+	font-weight: bold;
+}
+
+div.underlinedClass input.rf-sel-inp {
+	text-decoration: underline;
+}
+
+div.underlinedClass div.rf-sel-opt {
+	text-decoration: underline;
+}
+
+div.defaultColor input.rf-sel-inp {
+	color: #000;
+}
+
+div.defaultColor div.rf-sel-opt {
+	color: #000;
+}
+
+div.blueColor input.rf-sel-inp {
+	color: blue;
+}
+
+div.blueColor div.rf-sel-opt {
+	color: blue;
+}
+
+div.greenColor input.rf-sel-inp {
+	color: green;
+}
+
+div.greenColor div.rf-sel-opt {
+	color: green;
+}
+
+div.pinkColor input.rf-sel-inp {
+	color: #800080;
+}
+
+div.pinkColor div.rf-sel-opt {
+	color: #800080;
+}
+
+div.redColor input.rf-sel-inp {
+	color: red;
+}
+
+div.redColor div.rf-sel-opt {
+	color: red;
+}
+
+div.turquiseColor input.rf-sel-inp {
+	color: #0094ba;
+}
+
+div.turquiseColor div.rf-sel-opt {
+	color: #0094ba;
+}
+
+div.yellowColor input.rf-sel-inp {
+	color: yellow;
+}
+
+div.yellowColor div.rf-sel-opt {
+	color: yellow;
+}
+
+div.intensifiedColor input.rf-sel-inp {
+	color: #A0A0A0;
+}
+
+div.intensifiedColor div.rf-sel-opt {
+	color: #A0A0A0;
+}
+
+.rf-sel-cntr {
+	width: 100% !important;
+}
+
+input.rf-sel-inp {
+	width: 100% !important;
+}
+
+/* sobrescreve clase richfaces menu dropdown*/
+.rf-tb-itm {
+	width: 1px;
+}
+
+.menuItemDefault {
+	white-space: nowrap;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	z-index: 2;
+
+	font-weight: bold;
+}
+
+.defaultLabelGrid {
+	text-align: center;
+}
+
+.defaultLabelGrid a img {
+	border: 0;
+}
+
+
+table.inputRadioBaseClass input {
+	vertical-align: middle;
+	width: 14px !important;
+	margin-left: 0px;
+}
+
+table.inputRadioBaseClass label {
+	vertical-align: middle;
+}
+
+table.inputRadioBaseClass {
+	border-collapse: collapse;
+}
+
+input.inputToggleBaseClass {
+	width: 15px !important;
+}
+
+/* GRID */
+.grid-odd-row {
+	background-color: #FCFFFE;
+}
+
+.grid-even-row {
+	background-color: #ECF3FE;
+}
+
+.grid-active-row {
+	background-color: #FFEBDA !important;
+	cursor: pointer;
+}
+
+.inputMessageClass {
+	z-index: 9989;
+	font-weight: bold;
+}
+
+.nonDisplay {
+	display: none !important;
+}
+
+.rf-cal table {
+	z-index: 9981 !important;
+}
+
+
+div#sessionIE8e9 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 150px;
+	width: 350px;
+	border: 1px solid #C4C0B9;
+	background-color: #FFFFFF;
+	color: black;
+	text-align: left;
+	font-family: monospace !important;
+	font-size: medium !important;
+	z-index: 9998;
+	display: none;
+}
+
+div#sessionIE8e9Expired {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 150px;
+	width: 350px;
+	border: 1px solid #C4C0B9;
+	background-color: #FFFFFF;
+	color: black;
+	text-align: left;
+	font-family: monospace !important;
+	font-size: medium !important;
+	z-index: 9998;
+	display: none;
+}
+
+div#sessionIE8e9Fundo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 120%;
+	width: 100%;
+	border: none;
+	background-color: rgb(208, 208, 208);
+	opacity: 0.5;
+	color: black;
+	text-align: center;
+	z-index: 9997;
+	display: none;
+}
+
+div#sessionIE8e9Header {
+	background: #D4CFC7 url(/Naja/rfRes/gradientA.png.jsf?v=4.3.7.Final&db=eAFjZJBjZDBiZBBh!P!21TPG!1fOH2dgAgA6DgeR&ln=org.richfaces.images) repeat-x scroll top left;
+	position: relative;
+	padding-left: 10px;
+	cursor: move;
+	padding: 2px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+div#sessionIE8e9HeaderIn {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+	padding: 2px;
+	padding-left: 10px;
+}
+
+
+.pfKeyPF13Class {
+	display: none;
+}
+
+.pfKeyPF14Class {
+	display: none;
+}
+
+.pfKeyPF15Class {
+	display: none;
+}
+
+.pfKeyPF16Class {
+	display: none;
+}
+
+.pfKeyPF17Class {
+	display: none;
+}
+
+.pfKeyPF18Class {
+	display: none;
+}
+
+.pfKeyPF19Class {
+	display: none;
+}
+
+.pfKeyPF20Class {
+	display: none;
+}
+
+.pfKeyPF21Class {
+	display: none;
+}
+
+.pfKeyPF22Class {
+	display: none;
+}
+
+.pfKeyPF23Class {
+	display: none;
+}
+
+.pfKeyPF24Class {
+	display: none;
+}
+
+.pfKeyPF25Class {
+	display: none;
+}
+
+.pfKeyPF26Class {
+	display: none;
+}
+
+.pfKeyPF27Class {
+	display: none;
+}
+
+.pfKeyPF28Class {
+	display: none;
+}
+
+.pfKeyPF29Class {
+	display: none;
+}
+
+.pfKeyPF30Class {
+	display: none;
+}
+
+.pfKeyPF31Class {
+	display: none;
+}
+
+.pfKeyPF32Class {
+	display: none;
+}
+
+.pfKeyPF33Class {
+	display: none;
+}
+
+.pfKeyPF34Class {
+	display: none;
+}
+
+.pfKeyPF35Class {
+	display: none;
+}
+
+.pfKeyPF36Class {
+	display: none;
+}
+
+.pfKeyPF37Class {
+	display: none;
+}
+
+.pfKeyPF38Class {
+	display: none;
+}
+
+.pfKeyPF39Class {
+	display: none;
+}
+
+.pfKeyPF40Class {
+	display: none;
+}
+
+.pfKeyPF41Class {
+	display: none;
+}
+
+.pfKeyPF42Class {
+	display: none;
+}
+
+.pfKeyPF43Class {
+	display: none;
+}
+
+.pfKeyPF44Class {
+	display: none;
+}
+
+.pfKeyPF45Class {
+	display: none;
+}
+
+.pfKeyPF46Class {
+	display: none;
+}
+
+.pfKeyPF47Class {
+	display: none;
+}
+
+.pfKeyPF48Class {
+	display: none;
+}
+
+.pfKeyPF49Class {
+	display: none;
+}
+
+.pfKeyPF50Class {
+	display: none;
+}
+
+.pfKeyPF51Class {
+	display: none;
+}
+
+.pfKeyPF52Class {
+	display: none;
+}
+
+.pfKeyPF53Class {
+	display: none;
+}
+
+.pfKeyPF54Class {
+	display: none;
+}
+
+.pfKeyPF55Class {
+	display: none;
+}
+
+.pfKeyPF56Class {
+	display: none;
+}
+
+.pfKeyPF57Class {
+	display: none;
+}
+
+.pfKeyPF58Class {
+	display: none;
+}
+
+.pfKeyPF59Class {
+	display: none;
+}
+
+.pfKeyPF60Class {
+	display: none;
+}
+
+.pfKeyPF61Class {
+	display: none;
+}
+
+.pfKeyPF62Class {
+	display: none;
+}
+
+.pfKeyPF63Class {
+	display: none;
+}
+
+.pfKeyPF64Class {
+	display: none;
+}
+
+.pfKeyPF65Class {
+	display: none;
+}
+
+.pfKeyPF66Class {
+	display: none;
+}
+
+.pfKeyPF67Class {
+	display: none;
+}
+
+.pfKeyPF68Class {
+	display: none;
+}
+
+.pfKeyPF69Class {
+	display: none;
+}
+
+.pfKeyPF70Class {
+	display: none;
+}
+
+.pfKeyPF71Class {
+	display: none;
+}
+
+.pfKeyPF72Class {
+	display: none;
+}
+
+.pfKeyPF73Class {
+	display: none;
+}
+
+.pfKeyPF74Class {
+	display: none;
+}
+
+.pfKeyPF75Class {
+	display: none;
+}
+
+.pfKeyPF76Class {
+	display: none;
+}
+
+.pfKeyPF77Class {
+	display: none;
+}
+
+.pfKeyPF78Class {
+	display: none;
+}
+
+.pfKeyPF79Class {
+	display: none;
+}
+
+.pfKeyPF80Class {
+	display: none;
+}
+
+.pfKeyPF81Class {
+	display: none;
+}
+
+.pfKeyPF82Class {
+	display: none;
+}
+
+.pfKeyPF83Class {
+	display: none;
+}
+
+.pfKeyPF84Class {
+	display: none;
+}
+
+.pfKeyPF85Class {
+	display: none;
+}
+
+.pfKeyPF86Class {
+	display: none;
+}
+
+.pfKeyPF87Class {
+	display: none;
+}
+
+.pfKeyPF88Class {
+	display: none;
+}
+
+.pfKeyPF89Class {
+	display: none;
+}
+
+.pfKeyPF90Class {
+	display: none;
+}
+
+.pfKeyPF91Class {
+	display: none;
+}
+
+.pfKeyPF92Class {
+	display: none;
+}
+
+.pfKeyPF93Class {
+	display: none;
+}
+
+.pfKeyPF94Class {
+	display: none;
+}
+
+.pfKeyPF95Class {
+	display: none;
+}
+
+.pfKeyPF96Class {
+	display: none;
+}
+
+.pfKeyPF97Class {
+	display: none;
+}
+
+.pfKeyPF98Class {
+	display: none;
+}
+
+.pfKeyPF99Class {
+	display: none;
+}
+
+.pfKeyPA1Class {
+	display: none;
+}
+
+.pfKeyPA2Class {
+	display: none;
+}
+
+.pfKeyPA3Class {
+	display: none;
+}
+
+.pfKeyCLR1Class {
+	display: none;
+}
+
+.pfKeyCLR2Class {
+	display: none;
+}
+
+.pfKeyCLR3Class {
+	display: none;
+}
+
+.pfKeyCLR4Class {
+	display: none;
+}

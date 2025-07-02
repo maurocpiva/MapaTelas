@@ -1,0 +1,29 @@
+<!-- <div class="index-screen">
+
+    <div>
+        <label for="biblioteca">Biblioteca:</label>
+        <input id="bibliotecaInput" [(ngModel)]="biblioteca" placeholder="Insira a Biblioteca" size="25" />
+    </div>
+
+    <div>
+        <label for="programa">Programa:</label>
+        <input id="programaInput" [(ngModel)]="programa" placeholder="Insira o Programa" size="25" />
+    </div>
+
+    <button id="primeiraExecucao" (click)="onSubmit()">Executar</button>
+
+</div> -->
+
+<div class="container">
+    <div class="card">
+        <form class="form">
+            <label for="biblioteca">Biblioteca:</label>
+            <input type="text" id="bibliotecaInput" name="bibliotecaInput" [(ngModel)]="biblioteca" placeholder="Insira a Biblioteca" size="25" />
+
+            <label for="programa">Programa:</label>
+            <input type="text" id="programaInput" name="programaInput" [(ngModel)]="programa" placeholder="Insira o Programa" size="25"/>
+
+            <button id="primeiraExecucao" type="button" class="execute-btn" (click)="onSubmit()">Executar</button>
+        </form>
+    </div>
+</div>

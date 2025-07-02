@@ -1,0 +1,325 @@
+{
+    "type": "SCREEN",
+    "najamainid": "controller201065504",
+    "underNoErasePanel": {
+        "type": "PANEL",
+        "id": "underNoErasePanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": []
+    },
+    "mainPanel": {
+        "type": "PANEL",
+        "id": "mainPanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": [
+            {
+                "type": "WINDOW",
+                "id": "windowPopup_js_window_tmp_setctrl_0",
+                "position": {
+                    "top": 183,
+                    "left": 219
+                },
+                "size": {
+                    "width": 415,
+                    "height": 183
+                },
+                "style": null,
+                "styleClass": "popupClass",
+                "componentes": [
+                    {
+                        "type": "PANEL",
+                        "id": "windowPopup_js_window_tmp_setctrl_0_underNoEraseContent",
+                        "position": {
+                            "top": 0,
+                            "left": 0
+                        },
+                        "size": {
+                            "width": -1,
+                            "height": -1
+                        },
+                        "style": "top: 0px; position: absolute; width: 413px; ",
+                        "styleClass": null,
+                        "componentes": []
+                    },
+                    {
+                        "type": "PANEL",
+                        "id": "windowPopup_js_window_tmp_setctrl_0_mainContent",
+                        "position": {
+                            "top": 0,
+                            "left": 0
+                        },
+                        "size": {
+                            "width": -1,
+                            "height": -1
+                        },
+                        "style": "top: 0px; position: absolute; width: 413px; ",
+                        "styleClass": null,
+                        "componentes": [
+                            {
+                                "type": "OUTPUT",
+                                "id": "output0",
+                                "position": {
+                                    "top": 16,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 132,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "PREENCHA OS DADOS",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output2",
+                                "position": {
+                                    "top": 32,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 38,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "NOME:",
+                                "escape": false
+                            },
+                            {
+                                "type": "INPUT",
+                                "id": "hNOME_jecin_3_L1",
+                                "position": {
+                                    "top": 32,
+                                    "left": 56
+                                },
+                                "size": {
+                                    "width": 233,
+                                    "height": 16
+                                },
+                                "style": "width: 233.85px;  z-index:0;  position: absolute; text-transform:uppercase; ",
+                                "styleClass": "inputTextBaseClass defaultColor  hNOME_jecin_3_L1Class  defaultInputClass",
+                                "label": null,
+                                "placeholder": null,
+                                "varName": null,
+                                "value": null,
+                                "disabled": false,
+                                "inputSize": 30,
+                                "maxInputLength": 30,
+                                "required": false,
+                                "requiredMessage": null,
+                                "onfocus": "selectAllElementText('hNOME_jecin_3_L1'); changeInputFocusLine('2'); ",
+                                "onblur": "setOutTextArea(); ",
+                                "onkeyup": "leaveFieldToUpperCase(event, this, 30); ",
+                                "tabindex": 0
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output5",
+                                "position": {
+                                    "top": 48,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 77,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "SOBRENOME:",
+                                "escape": false
+                            },
+                            {
+                                "type": "INPUT",
+                                "id": "hSOBRENOME_jecin_7_L1",
+                                "position": {
+                                    "top": 48,
+                                    "left": 96
+                                },
+                                "size": {
+                                    "width": 233,
+                                    "height": 16
+                                },
+                                "style": "width: 233.85px;  z-index:0;  position: absolute; text-transform:uppercase; ",
+                                "styleClass": "inputTextBaseClass defaultColor  hSOBRENOME_jecin_7_L1Class  defaultInputClass",
+                                "label": null,
+                                "placeholder": null,
+                                "varName": null,
+                                "value": null,
+                                "disabled": false,
+                                "inputSize": 30,
+                                "maxInputLength": 30,
+                                "required": false,
+                                "requiredMessage": null,
+                                "onfocus": "selectAllElementText('hSOBRENOME_jecin_7_L1'); changeInputFocusLine('3'); ",
+                                "onblur": "setOutTextArea(); ",
+                                "onkeyup": "leaveFieldToUpperCase(event, this, 30); ",
+                                "tabindex": 0
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output8",
+                                "position": {
+                                    "top": 64,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 46,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "IDADE:",
+                                "escape": false
+                            },
+                            {
+                                "type": "INPUT",
+                                "id": "hIDADE_jecin_11_L1",
+                                "position": {
+                                    "top": 64,
+                                    "left": 64
+                                },
+                                "size": {
+                                    "width": 23,
+                                    "height": 16
+                                },
+                                "style": "width: 23.384999999999998px;  z-index:0;  position: absolute; text-transform:uppercase; ",
+                                "styleClass": "inputTextBaseClass defaultColor  hIDADE_jecin_11_L1Class  defaultInputClass",
+                                "label": null,
+                                "placeholder": null,
+                                "varName": null,
+                                "value": null,
+                                "disabled": false,
+                                "inputSize": 3,
+                                "maxInputLength": 3,
+                                "required": false,
+                                "requiredMessage": null,
+                                "onfocus": "selectAllElementText('hIDADE_jecin_11_L1'); changeInputFocusLine('4'); ",
+                                "onblur": "setOutTextArea(); ",
+                                "onkeyup": "keyUp(this,'NumericInt'); leaveFieldToUpperCase(event, this, 3); ",
+                                "tabindex": 0
+                            }
+                        ]
+                    }
+                ],
+                "title": " ",
+                "onshow": "setMaxSize('windowPopup_js_window_tmp_setctrl_0') ",
+                "autosized": false,
+                "moveable": true,
+                "show": true,
+                "resizeable": true,
+                "followByScroll": false,
+                "zindex": 9998
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "NSI",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": "controller201065504"
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "inputLineHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "inputHelpRoutineField",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "pfHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "pfGridLineHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "eventHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "mainFocusVal",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": "hNOME_jecin_3_L1"
+            }
+        ]
+    },
+    "controlsPanel": {
+        "type": "PANEL",
+        "id": "controlsPanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": []
+    },
+    "focusInputHidden": null,
+    "endProgram": false,
+    "pfKeyActivated": true,
+    "currentLine": 1,
+    "currentIDSufix": null,
+    "currentGridID": null,
+    "currentGridLine": null,
+    "isNoErase": false,
+    "navAction": "runProgram",
+    "actionPressed": null,
+    "errorPopUp": false,
+    "errorMessage": ""
+}

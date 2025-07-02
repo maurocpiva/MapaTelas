@@ -1,0 +1,45 @@
+.overlay {
+    position: fixed ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    z-index: 1000 ;
+}
+
+.pop-up {
+    background-color: #fff ;
+    padding: 20px ;
+    border-radius: 8px ;
+    width: 500px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+    text-align: center ;
+    animation: fadeIn 0.3s ease-out ;
+}
+
+.header {
+    color: #d9534f ;
+    margin: 0 ;
+    font-size: 1rem ;
+}
+
+.message {
+    color: #020202 ;
+    margin: 10px 0 ;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #d9534f ;
+    color: #fff ;
+    border: none ;
+    border-radius: 4px ;
+    padding: 10px 20px ;
+    cursor: pointer ;
+    font-size: 1rem ;
+    margin-top: 10px ;
+}

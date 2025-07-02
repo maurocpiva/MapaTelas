@@ -1,0 +1,331 @@
+{
+    "type": "SCREEN",
+    "najamainid": "controller654722981",
+    "underNoErasePanel": {
+        "type": "PANEL",
+        "id": "underNoErasePanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": []
+    },
+    "mainPanel": {
+        "type": "PANEL",
+        "id": "mainPanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": [
+            {
+                "type": "WINDOW",
+                "id": "windowPopup_W123456789012345678901234567890W_0",
+                "position": {
+                    "top": 306,
+                    "left": 146
+                },
+                "size": {
+                    "width": 172,
+                    "height": 428
+                },
+                "style": null,
+                "styleClass": "popupClass",
+                "componentes": [
+                    {
+                        "type": "PANEL",
+                        "id": "windowPopup_W123456789012345678901234567890W_0_underNoEraseContent",
+                        "position": {
+                            "top": 0,
+                            "left": 0
+                        },
+                        "size": {
+                            "width": -1,
+                            "height": -1
+                        },
+                        "style": "top: 0px; position: absolute; width: 170px; ",
+                        "styleClass": null,
+                        "componentes": []
+                    },
+                    {
+                        "type": "PANEL",
+                        "id": "windowPopup_W123456789012345678901234567890W_0_mainContent",
+                        "position": {
+                            "top": 0,
+                            "left": 0
+                        },
+                        "size": {
+                            "width": -1,
+                            "height": -1
+                        },
+                        "style": "top: 0px; position: absolute; width: 170px; ",
+                        "styleClass": null,
+                        "componentes": [
+                            {
+                                "type": "OUTPUT",
+                                "id": "output0",
+                                "position": {
+                                    "top": 16,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 31,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "Page",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output1",
+                                "position": {
+                                    "top": 16,
+                                    "left": 48
+                                },
+                                "size": {
+                                    "width": 46,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "     1",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output3",
+                                "position": {
+                                    "top": 16,
+                                    "left": 912
+                                },
+                                "size": {
+                                    "width": 62,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "28102024",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output5",
+                                "position": {
+                                    "top": 16,
+                                    "left": 992
+                                },
+                                "size": {
+                                    "width": 62,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "12:49:49",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output9",
+                                "position": {
+                                    "top": 48,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 23,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "  1",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output10",
+                                "position": {
+                                    "top": 48,
+                                    "left": 40
+                                },
+                                "size": {
+                                    "width": 171,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "THIS IS SOME LONG TEXT",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output11",
+                                "position": {
+                                    "top": 48,
+                                    "left": 224
+                                },
+                                "size": {
+                                    "width": 23,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "  1",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output13",
+                                "position": {
+                                    "top": 64,
+                                    "left": 8
+                                },
+                                "size": {
+                                    "width": 23,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "  2",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output14",
+                                "position": {
+                                    "top": 64,
+                                    "left": 40
+                                },
+                                "size": {
+                                    "width": 171,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "THIS IS SOME LONG TEXT",
+                                "escape": false
+                            },
+                            {
+                                "type": "OUTPUT",
+                                "id": "output15",
+                                "position": {
+                                    "top": 64,
+                                    "left": 224
+                                },
+                                "size": {
+                                    "width": 23,
+                                    "height": 16
+                                },
+                                "style": " z-index:0;  position: absolute; ",
+                                "styleClass": "outputTextBaseClass defaultColor ",
+                                "value": "  2",
+                                "escape": false
+                            }
+                        ]
+                    }
+                ],
+                "title": " ",
+                "onshow": "setMaxSize('windowPopup_W123456789012345678901234567890W_0') ",
+                "autosized": false,
+                "moveable": true,
+                "show": true,
+                "resizeable": true,
+                "followByScroll": false,
+                "zindex": 9998
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "NSI",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": "controller654722981"
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "inputLineHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "inputHelpRoutineField",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "pfHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "pfGridLineHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            },
+            {
+                "type": "INPUT_HIDDEN",
+                "id": "eventHidden",
+                "position": null,
+                "size": null,
+                "style": null,
+                "styleClass": null,
+                "value": null
+            }
+        ]
+    },
+    "controlsPanel": {
+        "type": "PANEL",
+        "id": "controlsPanel",
+        "position": {
+            "top": 0,
+            "left": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "style": null,
+        "styleClass": null,
+        "componentes": []
+    },
+    "focusInputHidden": null,
+    "endProgram": false,
+    "pfKeyActivated": true,
+    "currentLine": 1,
+    "currentIDSufix": null,
+    "currentGridID": null,
+    "currentGridLine": null,
+    "isNoErase": false,
+    "navAction": "runProgram",
+    "actionPressed": null,
+    "errorPopUp": false,
+    "errorMessage": ""
+}
